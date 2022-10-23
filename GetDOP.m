@@ -10,7 +10,7 @@ function GetDOP(r1, r2, r3, r4)
 %   in the satellite constellation.
 % Return:
 %   Outputs A matrix and Q matrix to the console.
-%   Outputs PDOP, TDOP, GDOP, HDOP values to the console.
+%   Outputs PDOP, TDOP, GDOP, HDOP and VDOP values to the console.
 
 % A matrix for current satellite constellation.
 %
