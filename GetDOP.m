@@ -33,13 +33,13 @@ disp(A);
 % dy*dx dy^2  dy*dz dy*dt
 % dz*dx dz*dy dz^2  dz*dt
 % dt*dx dt*dy dt*dz dt^2
-Q = (A * A')^(-1);
+Q = (A' * A)^(-1);
 disp('Q matrix');
 disp(Q);
 
 % PDOP (position DOP) value.
 PDOP = sqrt(Q(1,1)+Q(2,2)+Q(3,3));
-disp('PDOP value = ');
+disp('PDOP value');
 disp(PDOP);
 
 % TDOP (time DOP) value.
